@@ -1,6 +1,6 @@
 <script>
 	import { createEventDispatcher } from 'svelte';
-	import Star from './components/Star.svelte';
+	import Star from './Star.svelte';
 
 	const dispatch = createEventDispatcher();
 	export let value = -1;

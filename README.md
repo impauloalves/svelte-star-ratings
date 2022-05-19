@@ -16,7 +16,8 @@ Import the component
 
 ```javascript
 <script>
-	import Rating from 'svelte-star-ratings';
+	import { Rating } from 'svelte-star-ratings/Rating.svelte';
+	let value = 1;
 </script>
 
 <Rating
@@ -24,6 +25,7 @@ Import the component
 	bind:value={value}
 	on:change={(e) => console.log('Value', e.detail)}
 />
+{value}
 ```
 
 ## Properties

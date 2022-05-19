@@ -1,6 +1,6 @@
 {
 	"name": "svelte-star-ratings",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"author": "Paulo Alves <impauloalves@gmail.com>",
 	"scripts": {
 		"dev": "svelte-kit dev",
