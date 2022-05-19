@@ -2,7 +2,7 @@
 
 A simple star rating component for Svelte.
 
-![Svelte Rating](https://github.com/impauloalves/svelte-rating/static/rating.png "Svelte Rating")
+![Svelte Rating](https://github.com/impauloalves/svelte-rating/blob/master/static/rating.png "Svelte Rating")
 
 ## Usage
 

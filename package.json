@@ -1,6 +1,7 @@
 {
-	"name": "svelte-rating",
+	"name": "svelte-star-ratings",
 	"version": "1.0.0",
+	"author": "Paulo Alves <impauloalves@gmail.com>",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
@@ -31,6 +32,22 @@
 		"svelte2tsx": "^0.5.10"
 	},
 	"type": "module",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/impauloalves/svelte-star-ratings.git"
+	},
+	"bugs": {
+		"url": "https://github.com/impauloalves/svelte-star-ratings/issues"
+	},
+	"homepage": "https://github.com/impauloalves/svelte-star-ratings",
+	"keywords": [
+		"svelte",
+		"component",
+		"star",
+		"rating",
+		"rate"
+	],
 	"exports": {
 		"./package.json": "./package.json",
 		"./Rating.svelte": "./Rating.svelte"
