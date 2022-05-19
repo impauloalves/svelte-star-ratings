@@ -16,7 +16,7 @@ Import the component
 
 ```javascript
 <script>
-	import { Rating } from 'svelte-star-ratings/Rating.svelte';
+	import Rating from 'svelte-star-ratings/Rating.svelte';
 	let value = 1;
 </script>
 
