@@ -9,14 +9,14 @@ A simple star rating component for Svelte.
 Install from npm
 
 ```bash
-npm install svelte-rating --save
+npm install svelte-star-ratings --save
 ```
 
 Import the component
 
 ```javascript
 <script>
-	import Rating from 'svelte-rating';
+	import Rating from 'svelte-star-ratings';
 </script>
 
 <Rating

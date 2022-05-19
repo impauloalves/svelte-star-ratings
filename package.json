@@ -1,6 +1,6 @@
 {
 	"name": "svelte-star-ratings",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "Paulo Alves <impauloalves@gmail.com>",
 	"scripts": {
 		"dev": "svelte-kit dev",
@@ -27,9 +27,9 @@
 		"svelte": "^3.44.0",
 		"svelte-check": "^2.2.6",
 		"svelte-preprocess": "^4.10.1",
+		"svelte2tsx": "^0.5.10",
 		"tslib": "^2.3.1",
-		"typescript": "~4.6.2",
-		"svelte2tsx": "^0.5.10"
+		"typescript": "~4.6.2"
 	},
 	"type": "module",
 	"license": "MIT",
