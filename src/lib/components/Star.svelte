@@ -1,5 +1,7 @@
 <script>
 	import { createEventDispatcher } from 'svelte';
+	import StarFilled from '../icons/star-filled.svg';
+	import StarEmpty from '../icons/star-empty.svg';
 
 	const dispatch = createEventDispatcher();
 	export let value = 0;
@@ -14,7 +16,7 @@
 <img
 	class="star"
 	alt="star"
-	src={isActive ? '../star-filled.svg' : '../star-empty.svg'}
+	src={isActive ? StarFilled : StarEmpty}
 	style={isActive ? 'transform: scale(1.2)' : 'transform: scale(1.0)'}
 	on:mouseover={onMouseOver}
 	on:focus={onMouseOver}
