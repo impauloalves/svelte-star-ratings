@@ -6,6 +6,7 @@
 <div class="rating-container">
 	<h1>Svelte Rating</h1>
 	<Rating
+		mode="view"
 		maxRating={5}
 		bind:value={value}
 		on:change={(e) => console.log('Value', e.detail)}
