@@ -34,4 +34,5 @@ Import the component
 | --- | ---  | --- | --- |
 | **value** | Number | A property that defines the current rate | -1 |
 | **maxRating** | Number  | A property that defines the maximum rate. | 5 |
+| **mode** | String <"edit","read"> | A property that defines if rating is in read or edit mode. | edit |
 | **change** | Function  | A callback function called when the rate changes |  |
