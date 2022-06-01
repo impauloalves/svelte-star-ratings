@@ -7,6 +7,7 @@
 	<h1>Svelte Rating</h1>
 	<Rating
 		mode="view"
+		color="#FFCC00"
 		maxRating={5}
 		bind:value={value}
 		on:change={(e) => console.log('Value', e.detail)}
