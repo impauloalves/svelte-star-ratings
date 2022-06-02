@@ -1,6 +1,6 @@
 {
 	"name": "svelte-star-ratings",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": "A Svelte library to select and display rating using stars.",
 	"author": "Paulo Alves <impauloalves@gmail.com>",
 	"scripts": {
