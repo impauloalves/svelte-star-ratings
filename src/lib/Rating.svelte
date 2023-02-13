@@ -8,6 +8,7 @@
 	export let maxRating = 5;
 	export let mode = EDIT_MODE;
 	export let color = '';
+	export let modeTextLeft = true
 
 	function updateSelectedRate(event) {
 		value = event.detail;
@@ -16,8 +17,9 @@
 </script>
 
 <div style={`pointer-events: ${mode === EDIT_MODE ? 'default' : 'none'}`}>
-	{mode}
+	{#if modeTextLeft}{mode}{/if}
 	{#each new Array(maxRating) as _star, index}
 		<Star {value} {color} index={index + 1} on:updateRate={updateSelectedRate} />
 	{/each}
+	{#if !modeTextLeft}{mode}{/if}
 </div>
